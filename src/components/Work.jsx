@@ -5,6 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 import uwLogo from './uw.jpeg';
 import duploLogo from './duplo.png';
 import trackTheSpot from './tts.png';
+import vverseLogo from './vverse.jpeg';
 import mendota from './mendota.jpg';
 import covid from './covid-o-grapher.png';
 
@@ -27,8 +28,8 @@ function Work() {
     const projects = [
         {
             image: trackTheSpot,
-            title: "TrackTheSpot",
-            description: "User-Centric Spotify Data Visualization App",
+            title: "Wrappedly",
+            description: "Your personal Spotify data tracker.",
             link: "https://github.com/rishaan-k/trackthespot"
         },
         {
@@ -46,6 +47,12 @@ function Work() {
     ];
 
     const experiences = [
+        {
+            company: "VideoVerse",
+            title: "Software Engineer Intern, Applied AI",
+            period: "May 2025 - Present",
+            image: vverseLogo // TODO: Replace with VideoVerse logo
+        },
         {
             company: "DuploCloud",
             title: "Software Engineer Intern",

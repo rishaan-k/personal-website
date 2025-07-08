@@ -7,19 +7,9 @@ import Contact from "./components/Contact.jsx"
 import Work from "./components/Work.jsx"
 import Navigation from "./components/Navigation.jsx"
 import PageTransition from "./components/PageTransition.jsx"
-import { useState, useEffect } from 'react';
 
 function AnimatedRoutes() {
   const location = useLocation();
-  const [isNavigating, setIsNavigating] = useState(false);
-  
-  useEffect(() => {
-    setIsNavigating(true);
-    const timer = setTimeout(() => {
-      setIsNavigating(false);
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, [location]);
 
   return (
     <AnimatePresence mode="wait">
