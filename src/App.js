@@ -7,6 +7,7 @@ import Contact from "./components/Contact.jsx"
 import Work from "./components/Work.jsx"
 import Navigation from "./components/Navigation.jsx"
 import PageTransition from "./components/PageTransition.jsx"
+import { Analytics } from '@vercel/analytics/react';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -34,6 +35,7 @@ function App() {
           <AnimatedRoutes />
         </div>
       </div>
+      <Analytics />
     </Router>
   );
 }
