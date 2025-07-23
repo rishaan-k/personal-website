@@ -35,12 +35,6 @@ function Contact() {
                         <span className="social-text">LinkedIn</span>
                     </div>
                     <div className="social-item">
-                        <a href={resume} target="_blank" rel="noopener noreferrer" className="social-link">
-                            <FaFileAlt className="social-icon" />
-                        </a>
-                        <span className="social-text">Resume</span>
-                    </div>
-                    <div className="social-item">
                         <a href="mailto:rakumar2@wisc.edu" className="social-link">
                             <FaEnvelope className="social-icon" />
                         </a>
@@ -50,7 +44,7 @@ function Contact() {
                         <a href="https://rishaan.studio/" target="_blank" rel="noopener noreferrer" className="social-link">
                             <FaGlobe className="social-icon" />
                         </a>
-                        <span className="social-text">Portfolio</span>
+                        <span className="social-text">Editing Portfolio</span>
                     </div>
                 </div>
             </div>
